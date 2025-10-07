@@ -2,6 +2,9 @@
 
 A Solar icon set implementation for Filament 4.x, providing the full set of Solar icons integrated with Filament's interface.
 
+> [!IMPORTANT]
+> The Solar icon set by [480 Design](https://github.com/480-Design/Solar-Icon-Set) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See [Icon License](#icon-license) section below for attribution requirements.
+
 ## Installation
 
 Install via Composer:
@@ -89,5 +92,24 @@ SolarIcons::make()
     ], 'broken');
 ```
 
-## License
+## Icon License
+
+**Important**: The Solar icon set by [480 Design](https://github.com/480-Design/Solar-Icon-Set) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+### CC BY 4.0 Requirements
+
+When using Solar icons, you must:
+
+1. **Give appropriate credit** to 480 Design
+2. **Provide a link to the license**: https://creativecommons.org/licenses/by/4.0/
+3. **Indicate if changes were made** to the icons (if applicable)
+
+You may satisfy the attribution requirement by including a notice in your application's credits, about page, or documentation. Example:
+
+```
+Icons by Solar Icon Set (480 Design) - CC BY 4.0
+https://github.com/480-Design/Solar-Icon-Set
+```
+
+## Package License
 The MIT License (MIT). Please see [License](LICENSE.md) for more information.
