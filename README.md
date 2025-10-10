@@ -1,3 +1,5 @@
+![Filament Solar Icons](.github/banner.webp)
+
 # Filament Solar Icons
 
 A Solar icon set implementation for Filament 4.x, providing the full set of Solar icons integrated with Filament's interface.
@@ -5,14 +7,33 @@ A Solar icon set implementation for Filament 4.x, providing the full set of Sola
 > [!IMPORTANT]
 > The Solar icon set by [480 Design](https://github.com/480-Design/Solar-Icon-Set) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See [Icon License](#icon-license) section below for attribution requirements.
 
+## Index
+
+<pre>
+<a href="#installation"
+>> Installation..................................................................... </a>
+<a href="#icon-styles"
+>> Icon Styles...................................................................... </a>
+<a href="#override-specific-icons"
+>> Override Specific Icons.......................................................... </a>
+<a href="#icon-license"
+>> Icon License..................................................................... </a>
+<a href="#credits"
+>> Credits.......................................................................... </a>
+<a href="#license"
+>> License.......................................................................... </a>
+</pre>
+
 ## Installation
 
 Install via Composer:
+
 ```bash
 composer require g4b0rdev/filament-solar-icons
 ```
 
 Register the plugin in your Filament Panel provider:
+
 ```php
 use G4b0rDev\Icons\Solar\SolarIcons;
 
@@ -37,6 +58,7 @@ SolarIcons::make()
 ## Override Specific Icons
 
 ### Override Icon Aliases
+
 ```php
 SolarIcons::make()
     ->overrideAlias(PanelsIconAlias::SIDEBAR_EXPAND_BUTTON, SolarBold::AltArrowRight)
@@ -44,6 +66,7 @@ SolarIcons::make()
 ```
 
 Or override multiple aliases:
+
 ```php
 SolarIcons::make()
     ->overrideAliases([
@@ -54,6 +77,7 @@ SolarIcons::make()
 ```
 
 ### Override Individual Icons
+
 ```php
 SolarIcons::make()
     ->overrideIcon(SolarOutline::MinimalisticMagnifer, SolarBold::Magnifer)
@@ -61,6 +85,7 @@ SolarIcons::make()
 ```
 
 Or override multiple icons:
+
 ```php
 SolarIcons::make()
     ->overrideIcons([
@@ -71,6 +96,7 @@ SolarIcons::make()
 ```
 
 ### Override Styles for Specific Aliases
+
 ```php
 SolarIcons::make()
     ->style('outline')
@@ -82,6 +108,7 @@ SolarIcons::make()
 ```
 
 ### Override Styles for Specific Icons
+
 ```php
 SolarIcons::make()
     ->style('outline')
@@ -111,5 +138,14 @@ Icons by Solar Icon Set (480 Design) - CC BY 4.0
 https://github.com/480-Design/Solar-Icon-Set
 ```
 
-## Package License
+## Credits
+
+- [Solar Icon Set](https://github.com/480-Design/Solar-Icon-Set) for the icons
+- [codeat3](https://github.com/codeat3/blade-solar-icons) for the blade icon pack
+- [Filament Icons](https://github.com/filafly/filament-icons) for the base icon system
+- [G4b0rDev](https://github.com/G4b0rDev)
+- [All Contributors](https://github.com/G4b0rDev/filament-solar-icons/graphs/contributors)
+
+## License
+
 The MIT License (MIT). Please see [License](LICENSE.md) for more information.
