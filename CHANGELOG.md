@@ -2,6 +2,14 @@
 
 All notable changes to `filament-solar-icons` will be documented in this file.
 
+## v1.1.0 - 2025-10-12
+
+### Added
+- `feat: add getIconName method to enums`
+
+### Documentation
+- `docs: update README with getIconName method usage`
+
 ## [1.0.0] - 2025-10-10
 
 ### Added
