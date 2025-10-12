@@ -1250,4 +1250,9 @@ enum SolarLinear: string implements ScalableIcon
             default => "solar-{$this->value}",
         };
     }
+
+    public function getIconName(): string
+    {
+        return "solar-{$this->value}";
+    }
 }
