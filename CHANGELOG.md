@@ -2,6 +2,13 @@
 
 All notable changes to `filament-solar-icons` will be documented in this file.
 
+## v2.0.0 - 2026-03-25
+
+### Changed
+- Upgraded to Filament v5 (drops Filament v4 support)
+- Updated `filafly/filament-icons` to `^2.2`
+- Updated `codeat3/blade-solar-icons` to `^1.4`
+
 ## v1.1.1 - 2026-03-25
 
 ### Security

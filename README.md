@@ -2,7 +2,7 @@
 
 # Filament Solar Icons
 
-A Solar icon set implementation for Filament 4.x, providing the full set of Solar icons integrated with Filament's interface.
+A Solar icon set implementation for Filament 5.x, providing the full set of Solar icons integrated with Filament's interface.
 
 > [!NOTE]
 > **Filament v5 users:** use version `^2.0` of this package. Version `1.x` supports Filament v4 only.
