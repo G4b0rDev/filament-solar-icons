@@ -2,6 +2,11 @@
 
 All notable changes to `filament-solar-icons` will be documented in this file.
 
+## v1.1.1 - 2026-03-25
+
+### Security
+- Bumped minimum Filament version to `^4.8` to resolve security advisories (CVE-2025-67507, CVE-2026-33080 and transitive CVEs in symfony and league/commonmark)
+
 ## v1.1.0 - 2025-10-12
 
 ### Added

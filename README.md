@@ -4,6 +4,9 @@
 
 A Solar icon set implementation for Filament 4.x, providing the full set of Solar icons integrated with Filament's interface.
 
+> [!NOTE]
+> **Filament v5 users:** use version `^2.0` of this package. Version `1.x` supports Filament v4 only.
+
 > [!IMPORTANT]
 > The Solar icon set by [480 Design](https://github.com/480-Design/Solar-Icon-Set) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See [Icon License](#icon-license) section below for attribution requirements.
 
